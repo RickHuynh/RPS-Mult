@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ro Sham Po!</title>
+  <meta name="description" content="DESCRIPTION">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+  <div class="container w-25" id = "form-div">
+    <form role="form">
+      <div class="form-group">
+        <label for="name-input">Name:</label>
+        <input class="form-control" id="email-input" type="text">
+      </div>
+      <button class="btn btn-default" id="add-user" type="submit">Submit</button>
+    </form>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col border">
+        <div class="btn-group-vertical">
+          <button type="button" class="btn btn-secondary 1">Rock</button>
+          <button type="button" class="btn btn-secondary 1">Paper</button>
+          <button type="button" class="btn btn-secondary 1">Scissors</button>
+        </div>
+      </div>
+      <div class="col-md-8 border">
+        <h1 id="result" class="text-center">Nobody wants to play Rock paper scissors...?</h1>
+      </div>
+      <div class="col border">
+        <div class="btn-group-vertical float-right">
+          <button type="button" class="btn btn-secondary 2" id = "2">Rock</button>
+          <button type="button" class="btn btn-secondary 2">Paper</button>
+          <button type="button" class="btn btn-secondary 2">Scissors</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
